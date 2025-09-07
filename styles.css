@@ -4,6 +4,7 @@
       margin: 0;
       padding: 5px;
       background: white;
+	   width:100%;
     }
 
     #grid {
@@ -11,6 +12,7 @@
       grid-template-columns: repeat(4, 246.25px); /* fixed width */
       grid-template-rows: repeat(5, 124px);
       gap: 5px;
+		
     }
 
     #grid > div {
@@ -21,6 +23,7 @@
       align-items: center;
       justify-content: left;
       padding: 10px;
+		
     }
 
    #grid > div:nth-child(1){
